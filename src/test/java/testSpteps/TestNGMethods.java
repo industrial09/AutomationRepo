@@ -64,6 +64,7 @@ public class TestNGMethods extends Setup{
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath(modalCloseButtonXpath)));
 		WebElement closeModalButton = driver.findElement(By.xpath(modalCloseButtonXpath));
 		closeModalButton.click();
+		System.out.println("Change to load");
 	}
 	
 	public void makeASumAndValidateResult() throws InterruptedException {
