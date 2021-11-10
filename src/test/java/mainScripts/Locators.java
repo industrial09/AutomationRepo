@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 public class Locators {
 	public final String iniciarSesionXpath = "//*[@id=\"site\"]/div/div/div/div[1]/div/div[3]/div/div[2]/div/div[2]/nav/a";

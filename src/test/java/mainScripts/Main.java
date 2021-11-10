@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 /**
  * Let's play with strings

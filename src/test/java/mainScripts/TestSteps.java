@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -12,11 +12,11 @@ import io.cucumber.java.en.Then;
 public class TestSteps {
 	Setup setup = new Setup();
     Locators locators = new Locators();
-    WebDriver driver = new ChromeDriver();
+    WebDriver driver = null;
 
     @When("I click on Iniciar sesion on landing page")
     public void i_click_on_iniciar_sesion_on_landing_page() {
-        setup.setup();
+        driver = setup.setup("chrome");
         driver.get("https://www.musixmatch.com/es");
         driver.findElement(By.xpath(locators.iniciarSesionXpath)).click();
     }

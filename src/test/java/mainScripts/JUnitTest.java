@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class JUnitTest extends Setup{
-	WebDriver driver = setup();
+	WebDriver driver = setup("chrome");
 	public final String invalidEmailMsg = "//div[@class='validation error'][contains(text(), 'Email is required')]";
 	 public final String invalidPasswordMsg = "//div[@class='validation error'][contains(text(), 'Password is required')]";
 	   /*

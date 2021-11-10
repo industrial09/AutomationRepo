@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testSpteps.TestFirst">
+      <class name="mainScripts.DBTests">
         <methods>
-          <include name="anything"/>
-          <include name="closeWindows"/>
+          <include name="twoTablesAssertion"/>
         </methods>
-      </class> <!-- testSpteps.TestFirst -->
+      </class> <!-- mainScripts.DBTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

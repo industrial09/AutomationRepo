@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class TestNGMethods extends Setup{
-	WebDriver driver = setup();
+	WebDriver driver = setup("chrome");
 	WebDriverWait wait = new WebDriverWait(driver, 10);
 	Actions action = new Actions(driver);
 	

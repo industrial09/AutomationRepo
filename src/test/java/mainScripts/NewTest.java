@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 public class NewTest {
 	

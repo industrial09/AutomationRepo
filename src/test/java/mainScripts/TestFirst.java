@@ -1,4 +1,4 @@
-package testSpteps;
+package mainScripts;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
