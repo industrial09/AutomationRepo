@@ -1,4 +1,4 @@
-package testMethods;
+package dbconection;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -7,8 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 import org.testng.Assert;
-
-import dbconection.Connection;
 
 public class QueriesMethods extends Connection{
 	public List<String> retrieveData() throws SQLException {

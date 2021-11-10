@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import testMethods.QueriesMethods;
+import dbconection.QueriesMethods;
 
 public class DBTests extends QueriesMethods{
 	Logger log = Logger.getLogger(QueriesMethods.class);
