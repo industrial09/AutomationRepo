@@ -1,4 +1,4 @@
-package testSteps;
+package testMethods;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
