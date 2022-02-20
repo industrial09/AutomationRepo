@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 public class QueriesMethods extends Connection{
 	public List<String> retrieveData() throws SQLException {
-		List<String> data = new LinkedList<>();
+		//List<String> data = new LinkedList<>();
 		String pupilDetails = "";
 		  ResultSet res = dbConecction("select");
 		  while(res.next()) {
@@ -19,7 +19,7 @@ public class QueriesMethods extends Connection{
 			  String major = res.getString("major");
 			  
 			  pupilDetails = "Pupil name is: "+ name+" "+lastName+ " and its corresponding major is: "+major;
-			  data.add(pupilDetails);
+			  //data.add(pupilDetails);
 			  
 			  System.out.println("Pupil name is: "+ name+" "+lastName+ " and its corresponding major is: "+major);
 		  }
