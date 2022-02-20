@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 public class QueriesMethods extends Connection{
 	public List<String> retrieveData() throws SQLException {
-		List<String> data = new LinkedList<String>();
+		List<String> data = new LinkedList<>();
 		String pupilDetails = "";
 		  ResultSet res = dbConecction("select");
 		  while(res.next()) {
